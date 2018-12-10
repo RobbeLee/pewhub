@@ -1,0 +1,10 @@
+ErrorDocument 404 /404.html
+ErrorDocument 403 /.index.php
+#Options -Indexes
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+php_value upload_max_filesize 1024M
