@@ -8,6 +8,7 @@ require_once 'include/functions.php';
     <head>
         <?php require_once 'include/header.php'; ?>
         <title><?php echo ucfirst($_BRAND); ?></title>
+        <?php echo getTheme($fetchDir); ?>
     </head>
     <body>
         <div class="container">

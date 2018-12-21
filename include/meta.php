@@ -25,4 +25,3 @@ $_BRAND = "pewhub";
         <meta property="og:url" content="//">
         <meta property="og:image" content="/assets/images/icons/favicon.ico">
         <link href="/assets/images/icons/favicon.ico" rel="icon">
-        <?php echo getTheme($fetchDir); ?>

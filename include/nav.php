@@ -10,7 +10,7 @@ This document will be included in all webpages
 
 ?>
 
-<nav>
+<nav class="flex">
     <div class="nav__left">
         <div class="nav__toggle-btn">
             <span class="nav-toggle-btn"></span>
@@ -22,3 +22,5 @@ This document will be included in all webpages
     <div class="nav__right">
     </div>
 </nav>
+
+<div class="loading-container" id="loading-container" style="display:none;"><div id="loading" class="loading"></div></div>
